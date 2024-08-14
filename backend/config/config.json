@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "mysecretpassword",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "your_username",
+    "password": "your_password",
+    "database": "recipe_app_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "your_username",
+    "password": "your_password",
+    "database": "recipe_app_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
